@@ -89,17 +89,17 @@
 ```
 multi-market-automation/
 ├── apps_script/
-│   └── cafe24.js          # 카페24 + 자사몰 처리 (Google Apps Script)
-├── python/
-│   ├── main.py            # 진입점 - 전체 플랫폼 순차 실행
-│   ├── config.py          # 환경변수 로드 및 상수 정의
-│   ├── sheets.py          # Google Sheets 연동 (읽기/쓰기)
-│   ├── coupang.py         # 쿠팡 HMAC 인증 + 3단계 API 처리
-│   ├── naver.py           # 스마트스토어 OAuth 2.0 + 다중 계정
-│   ├── st11.py            # 11번가 XML 응답 파싱
-│   ├── lotteon.py         # 롯데온 Bearer 인증
-│   └── esm.py             # G마켓/옥션 JWT 자체 생성
-├── .env.example           # 환경변수 템플릿
+│   └── cafe24.js              # 카페24 + 자사몰 처리 (Google Apps Script)
+├── main.py                    # 진입점 - 전체 플랫폼 순차 실행
+├── config.py                  # 환경변수 로드 및 상수 정의
+├── sheets.py                  # Google Sheets 연동 (읽기/쓰기)
+├── coupang.py                 # 쿠팡 HMAC 인증 + 3단계 API 처리
+├── naver.py                   # 스마트스토어 OAuth 2.0 + 다중 계정
+├── st11.py                    # 11번가 XML 응답 파싱
+├── lotteon.py                 # 롯데온 Bearer 인증
+├── esm.py                     # G마켓/옥션 JWT 자체 생성
+├── .env.example               # 환경변수 템플릿
+├── esm_items.json.example     # ESM 상품 매핑 템플릿
 ├── .gitignore
 ├── requirements.txt
 └── README.md

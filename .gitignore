@@ -3,6 +3,7 @@
 
 # ESM 상품 매핑 (회사 데이터)
 esm_items.json
+!esm_items.json.example
 
 # 구글 서비스 계정 키
 credentials.json
